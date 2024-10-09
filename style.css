@@ -1,0 +1,42 @@
+body{
+    background-image: url(https://static6.depositphotos.com/1003098/568/i/450/depositphotos_5687838-stock-photo-casino-chip-background.jpg);
+    text-align: center;
+    background-size:cover;
+}
+h1{
+    margin-top: 40px;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: yellow;
+}
+p{
+    margin-top: 40px;
+    font-size: 60px;
+    color:white;
+}
+h2{
+    margin-top: 40px;
+    font-size: 60px;
+    color:white;
+}
+.buttonel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+button{
+    margin-top: 20px;
+    padding: 10px;
+    width: 300px;
+    font-size: 40px;
+    padding: 3PX;
+    height: 50px;
+    border: none;
+    text-transform: uppercase;
+    background-color: rgb(164, 164, 23);
+    color: rgb(31, 88, 31);
+}
+button:hover{
+    border: 2px solid white ;
+}
